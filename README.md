@@ -4,7 +4,7 @@ a modern, interactive portfolio website built with react and typescript.
 
 ## features
 
-- modern and clean design
+- modern and clean design 
 - responsive layout with mobile support
 - smooth animations and transitions
 - interactive carousel navigation
