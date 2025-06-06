@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && type nul > dist/.nojekyll",
+    "build": "vite build",
+    "postbuild": "node -e \"require('fs').writeFileSync('dist/.nojekyll', '')\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
