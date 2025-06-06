@@ -25,6 +25,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add MIME types
+        run: |
+          echo "/*.js application/javascript" > dist/.htaccess
+          echo "/*.mjs application/javascript" >> dist/.htaccess
+          echo "/*.css text/css" >> dist/.htaccess
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
