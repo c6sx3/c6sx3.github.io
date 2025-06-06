@@ -1,75 +1,71 @@
-# Portfolio Website
+# portfolio website
 
-A modern, interactive portfolio website built with React and TypeScript.
+a modern, interactive portfolio website built with react and typescript.
 
-## Features
+## features
 
-- 🎨 Modern and clean design
-- 📱 Responsive layout with mobile support
-- 🎭 Smooth animations and transitions
-- 🎯 Interactive carousel navigation
-- ⚡ Fast loading with optimized performance
+- modern and clean design
+- responsive layout with mobile support
+- smooth animations and transitions
+- interactive carousel navigation
+- fast loading with optimized performance
 
-## Tech Stack
+## tech stack
 
 - React
 - TypeScript
 - Tailwind CSS
 - Vite
 
-## Getting Started
+## getting started
 
-1. Clone the repository
+1. clone the repository
 ```bash
 git clone https://github.com/yourusername/portfolio.git
 ```
 
-2. Install dependencies
+2. install dependencies
 ```bash
 npm install
 ```
 
-3. Run the development server
+3. run the development server
 ```bash
 npm run dev
 ```
 
-4. Build for production
+4. build for production
 ```bash
 npm run build
 ```
 
-## Project Structure
+## project structure
 
 ```
 src/
-├── components/     # React components
-├── hooks/         # Custom React hooks
-└── App.tsx        # Main application component
+├── components/     # react components
+├── hooks/         # custom react hooks
+└── App.tsx        # main application component
 ```
 
-## Development
+## development
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
+- `npm run dev` - start development server
+- `npm run build` - build for production
+- `npm run preview` - preview production build
 
-## Deployment
+## deployment
 
-This project is configured for GitHub Pages deployment. The site will be automatically deployed when changes are pushed to the main branch.
+this project is configured for github pages deployment. the site will be automatically deployed when changes are pushed to the main branch.
 
-## Contributing
+## contributing
 
-Feel free to fork this project and customize it for your own use.
+feel free to fork this project and customize it for your own use.
 
 ## about
 
 this project is open source and can be modified to fit your needs. 
 feel free to contribute, fork, or use it as a base for your own project.
-
-## license
-
-this project is open source and available under the mit license.
 
 ## changelog
 
@@ -81,8 +77,14 @@ this project is open source and available under the mit license.
 
 ## upcoming updates
 
+- add animations for box appearance
+- add settings page for user customization
+- optimize performance for low-end devices
 - add dark/light mode toggle
-- improve accessibility (a11y)
+- add animations for box appearance
+- add settings page for user customization
+- optimize performance for low-end devices
+- add dark/light mode toggle
 - add animations for box appearance
 - add settings page for user customization
 - optimize performance for low-end devices
